@@ -232,14 +232,14 @@ hr{
 
 @media only screen and (max-width: 390px){
     .baneer{
-         top: 7px;
+         top: 10px;
     }
     .baneer h1{
-       font-size: 27px;
+       font-size: 29px;
     }
     .baneer p{
        
-        line-height: 21px;
+        line-height: 22px;
         padding: 4px 0px;
     }
     
