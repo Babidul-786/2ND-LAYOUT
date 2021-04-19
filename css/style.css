@@ -46,7 +46,7 @@ button{
     margin: 0 auto;
      text-align: center;
      position: relative;
-     top: 40px;
+     top: 55px;
 }
 .baneer h1{
     color: rgb(13, 128, 182);
@@ -232,7 +232,7 @@ hr{
 
 @media only screen and (max-width: 390px){
     .baneer{
-         top: 25px;
+         top: 10px;
     }
     .second-section img{
         width: 80%;
