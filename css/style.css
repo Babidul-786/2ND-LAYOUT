@@ -1,0 +1,232 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: monospace;
+}
+
+.full-wrapper{
+    width: 100%;
+    height: 450px;
+    background-image: url(../Img/intensify/banner.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+.navigation {
+    margin-top: 13px;
+   
+}
+ 
+.navigation .left{
+    text-align: left;
+    color: grey;
+   
+}
+.navigation .Intensify{
+    color: rgb(204, 57, 4);
+    font-size: 32px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navigation .right{
+    text-align: right;
+    margin-bottom: 15px;
+}
+button{
+   width: 70px;
+   height: 30px;
+   border-color: #fff;
+   color: grey;
+   padding: 5;
+
+  
+}
+.baneer{
+    width: 50%;
+    margin: 0 auto;
+     text-align: center;
+     position: relative;
+     top: 40px;
+}
+.baneer h1{
+    color: rgb(13, 128, 182);
+}
+.baneer p{
+    color: grey;
+    line-height: 23px;
+    padding: 10px 0px;
+}
+
+.my-button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(209, 65, 13);
+    color: #fff;
+    text-align: center;
+}
+
+/* second-section */
+
+
+.second-section .babi{
+    padding: 70px 0px;
+}
+
+.babi h2{
+    color: rgb(13, 128, 182);
+    text-align: right;
+}
+.babi p{
+    color: grey;
+    line-height: 24px;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+.second-section img{
+    padding: 70px 0px;
+    width: 100%;
+}
+
+.second-section .babi2{
+    padding: 70px 0px;
+    margin-left: 20px;
+
+}
+
+.babi2 h2{
+    color: rgb(13, 128, 182);
+   
+}
+.babi2 p{
+    color: grey;
+    line-height: 24px;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+/* Third section  */
+
+
+.Third-section{
+    width: 100%;
+    background-color:rgb(209, 65, 13);
+    
+}
+
+.Third-section .Third{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 45px 0px;
+}
+.Third h2{
+    font-weight: 100;
+    color: #fff;
+}
+.Third p{
+    color: lightslategrey;
+    padding: 25px 0px;
+    line-height: 24px;
+    font-size: 17px;
+}
+.Third h5{
+    color: #fff;
+    line-height: 25px;
+}
+/* three-img */
+
+
+.Three-img{
+    padding: 50px 0px;
+   
+}
+
+.first-image{
+    border: 1px solid grey;
+
+}
+.first-image img{
+    width: 100%;
+    text-align: center;
+}
+.first-image h2{
+    color: rgb(13, 128, 182);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.first-image p{
+    color: grey;
+   padding: 15px 0px;
+    margin-left: 20px;
+    line-height: 24px;
+}
+
+/* footer */
+
+
+.footer{
+    width: 100%;
+    background-color: rgb(13, 128, 182);
+    text-align: center;
+    color: #fff;
+    padding: 40px 0px;
+}
+.footer h2{
+   
+}
+.detials{
+    padding: 20px 0px;
+}
+.detials .fa{
+    padding: 15px;
+    font-size: 19px;
+ 
+}
+
+ .footer span{
+    position: relative;
+    top: 10px;
+    font-size:18px ;
+   
+}
+hr{
+    margin: 0 auto;
+    width: 60%;
+    color: #fff;
+} 
+
+@media only screen and (max-width: 1200px){
+    .second-section .babi{
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .babi h2{
+        text-align:center ;
+    }
+    .babi p{
+        text-align:center;
+    }
+    .second-section img {
+        width: 50%;
+        margin-left:23%;
+        
+       
+    }
+    .second-section .babi2{
+       text-align: center;
+       padding: 30px 0px;
+    }
+
+    .second-section .babi{
+        padding: 30px 0px;
+    }
+
+    .babi p{      
+        padding: 10px 0px;  
+    }
+    .babi2 p{
+        padding: 10px 0px;
+    }
+    
+}
+/* the ends */
